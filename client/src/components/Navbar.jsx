@@ -77,6 +77,7 @@ export default function Navbar({ onMenuClick }) {
     <AppBar
       position="fixed"
       sx={{
+        zIndex: (theme) => theme.zIndex.drawer + 1,
         background: `linear-gradient(135deg, #1A1F3A 0%, #2D1B69 100%)`,
         boxShadow: '0 0 20px rgba(255, 0, 255, 0.3), 0 0 40px rgba(124, 77, 255, 0.2)',
         borderBottom: '2px solid #FF00FF',
