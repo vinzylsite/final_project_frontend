@@ -16,7 +16,8 @@ export default function VideoCard({ video }) {
       sx={{
         cursor: 'pointer',
         height: '100%',
-        width : '15vw', 
+        width: '100%',
+        maxWidth: '100%',
         display: 'flex',
         flexDirection: 'column',
         background: `linear-gradient(135deg, ${theme.palette.background.paper} 0%, rgba(124, 77, 255, 0.1) 100%)`,
